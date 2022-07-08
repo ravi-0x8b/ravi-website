@@ -32,7 +32,7 @@ h1 {
 }
 
 p.about {
-    color: #fff8;
+    color: rgba(255, 255, 255, 0.826);
     font-family: 'Roboto slab', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -50,7 +50,7 @@ ul li {
     font-weight: 600;
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 15px;
     margin-bottom: 6px;
     display: flex;
@@ -68,31 +68,34 @@ a {
 }
 
 a:hover {
-    color: #54A4AF
+    color: #414144
 }
 
 .experience {
     font-family: 'Roboto slab', sans-serif;
-    color: #ffff;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
-.social {
-    display: inline;
-    margin-bottom: 6px;
-}
 
-#social {
+.social {
     font-family: 'Roboto slab', sans-serif;
+    font-size: 20px;
     color: #ffff;
-    margin-top: 16px;
+    margin-top: 20px;
     margin-bottom: 8px;
 }
 
 .fa {
     text-decoration: none;
     text-align: center;
-    width: 30px;
+    width: 55px;
     margin: 5px 2px;
+}
+
+.medias {
+    text-decoration: none;
+    font-size: 25px;
 }
