@@ -7,11 +7,10 @@ p {
     color: #ffff;
 }
 body {
-    background: #393E46;
+    background: #232931;
 }
 
 .container {
-    background: #232931;
     text-align: center;
     width: 450px;
     margin: 60px auto 0;
@@ -19,10 +18,11 @@ body {
 }
 
 img.icon {
-    width: 200px;    
-    height: 200px;
+    width: 100px;    
+    height: 100px;
     border-radius: 50%;
     margin-top: 10px;
+    border: 6px #414141 solid;
 }
 
 h1 {
@@ -32,10 +32,10 @@ h1 {
 }
 
 p.about {
+    color: #fff8;
     font-family: 'Roboto slab', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -50,19 +50,20 @@ ul li {
     font-weight: 600;
     list-style: none;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 15px;
     margin-bottom: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #414141;
-    border-radius: 8px;
+    border-radius: 25px;
+    height: 56px;
 }
 
 a {
+    color: #ffff;
     text-decoration: none;
-    color: #BDBDD7;
-    text-transform: uppercase;
     transition: color 400ms;
 }
 
@@ -70,10 +71,28 @@ a:hover {
     color: #54A4AF
 }
 
+.experience {
+    font-family: 'Roboto slab', sans-serif;
+    color: #ffff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 .social {
+    display: inline;
     margin-bottom: 6px;
 }
 
-#msocial {
+#social {
+    font-family: 'Roboto slab', sans-serif;
+    color: #ffff;
+    margin-top: 16px;
     margin-bottom: 8px;
+}
+
+.fa {
+    text-decoration: none;
+    text-align: center;
+    width: 30px;
+    margin: 5px 2px;
 }
